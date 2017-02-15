@@ -1,0 +1,5 @@
+C:\Users\Sasa\Documents\Visual Studio 2013\Projects\SeminarSMasterom\Aplikacija\Aplikacija\bin\Aplikacija.dll.config
+C:\Users\Sasa\Documents\Visual Studio 2013\Projects\SeminarSMasterom\Aplikacija\Aplikacija\bin\Aplikacija.dll
+C:\Users\Sasa\Documents\Visual Studio 2013\Projects\SeminarSMasterom\Aplikacija\Aplikacija\bin\Aplikacija.pdb
+C:\Users\Sasa\Documents\Visual Studio 2013\Projects\SeminarSMasterom\Aplikacija\Aplikacija\obj\Debug\Aplikacija.dll
+C:\Users\Sasa\Documents\Visual Studio 2013\Projects\SeminarSMasterom\Aplikacija\Aplikacija\obj\Debug\Aplikacija.pdb

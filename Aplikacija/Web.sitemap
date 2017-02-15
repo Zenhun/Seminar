@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Predbiljezba.aspx" title="Predbilježba"  description="Predbilježite se na seminar">
+      <siteMapNode url="~/Prijava.aspx" title="Prijava"  description="Prijava za administratore" >
+        <siteMapNode url="~/korisnici/Predbiljezbe.aspx" title="Predbilježbe"  description="Predbilježbe na seminare" />
+        <siteMapNode url="~/korisnici/Seminari.aspx" title="Seminari"  description="Uređivanje seminara" />
+        <siteMapNode url="~/korisnici/Predavaci.aspx" title="Predavači"  description="Uređivanje korisnika" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

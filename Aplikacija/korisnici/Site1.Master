@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Aplikacija.korisnici.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <link href="../Style/Style.css" rel="stylesheet" />
+    <script src="../res/JQ.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="logo"></div>
+            <div class="siteMap">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                    <CurrentNodeStyle ForeColor="White" />
+                    <NodeStyle Font-Bold="True" ForeColor="#E0E0E0" />
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                    <RootNodeStyle Font-Bold="True" ForeColor="#CCCCCC" />
+                </asp:SiteMapPath>
+            </div>
+            <div class="user-wrap" >
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ToolTip="Odjava">
+                    <div id="logout"></div>
+                </asp:LinkButton>
+                <div id="korisnik">
+                    <asp:Label ID="lblKorisnik" runat="server" Text=""></asp:Label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-wrap">
+        <div class="tabs">
+          <ul id="nav">
+            <li id="Predbiljezbe.aspx"><a href="Predbiljezbe.aspx"><div class="icon icon-predbiljezbe"></div><div>Predbilježbe</div></a></li>
+            <li id="Seminari.aspx"><a href="Seminari.aspx"><div class="icon icon-seminari"></div><div>Seminari</div></a></li>
+            <li id="Predavaci.aspx"><a href="Predavaci.aspx"><div class="icon icon-predavaci" style="height: 32px; width: 32px;"></div><div>Predavači</div></a></li>
+          </ul>
+          <div id="tabs-1">            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+          </div>
+        </div>
+    </div>
+
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>

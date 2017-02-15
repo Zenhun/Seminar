@@ -1,0 +1,164 @@
+﻿* { margin:0; padding: 0; font-family:Calibri;}
+.noscroll { overflow: hidden; }
+th, td { padding: 10px;}
+a { text-decoration: none;}
+table th a {text-decoration: underline;}
+input { line-height: 30px; margin-left: 5px; }
+.siteMap {display: inline-block; line-height: 41px; font-family: Calibri; font-size: 16px; margin-left: 10px; position: relative;}
+.btn { height: 34px; padding: 0px 5px;}
+.btn:hover {cursor: pointer;}
+.wrapper { margin-left: auto; margin-right: auto; max-width: 1500px; width: 80%; box-shadow: 0px 0px 10px #beb9b9, 0px 0px 10px #093866;}
+.hidden { display: none;}
+.left {float: left;}
+select { height: 25px; }
+input[type=radio] { display:none;}
+input[type=radio] + label { display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#F6F6F6,#DEDEDE);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#F6F6F6),to(#DEDEDE));
+    background-image: -webkit-linear-gradient(top,#F6F6F6,#DEDEDE);
+    background-image: -o-linear-gradient(top,#F6F6F6,#DEDEDE);
+    background-image: linear-gradient(to bottom,#F6F6F6,#DEDEDE);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05); }
+input[type=radio]:checked + label { background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 6px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 2px 6px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    background-color:rgb(247, 246, 243); color: #eb592c; }
+
+.flex-container { display: -webkit-flex; display: flex; flex-wrap:wrap; justify-content:center; width: 100%; }
+.flex-item { position:relative; margin: 35px; font-size: 20px; text-align: center; width: 330px; height: 350px; box-shadow: 0 3px 7px #7B7B7B; overflow: hidden; }
+.flex-item .naslov {position:relative; min-height: 56px; font-size: 22px; font-weight: bold; background-color: #DEDEDE; border-bottom: 2px solid #eb592c; padding: 10px 5px 15px 5px; }
+.flex-item .opis { font-size: 18px; text-align: justify; height: 193px; overflow: hidden;}
+.flex-item div {padding: 10px; vertical-align: middle; background-color: #fff; }
+.flex-item:hover {cursor: pointer; box-shadow: 0 4px 10px #535353;}
+.flex-item .naslov h2 { display: none; position: absolute; top: 20px; left: 82px; color: #fff; font-size: 27px; text-align: center; z-index: 101;}
+.overlayWrap { display: none; position:absolute; top: 0; left: 0; width: 100%; min-height: 61px; background-color: black !important; opacity: 0.75; z-index: 100; }
+
+.popupDiv { margin: 15px auto; width: 85%; position: relative; overflow:hidden;}
+.popupDiv p {margin-bottom: 10px;}
+#predbiljezbaInfo {border-collapse: collapse; border-bottom: 2px solid #E4E4E4;}
+#predbiljezbaInfo .title, .popupTable .title {background-color: #e8e8e8; box-shadow: 2px 0 3px #C1C1C1;}
+#predbiljezbaInfo .data, .popupTable .data {box-shadow: 1px 0 1px #C1C1C1; width: 380px;}
+.popupTable .data input {border: none; width: 350px;}
+#predbiljezbaInfo .underline, .popupTable .underline { line-height: 37px; padding: 0 1px; font-size:16px; font-weight: bold; border-bottom: 2px solid #eb592c;}
+
+#ObrisiSeminar {position: relative; left: 50%; margin: 40px 0 0 -100px;}
+
+#unosPrijava {position: relative; left: 50%; margin-left: -160px;}
+#unosPrijava input[type=text] { border: none; border-bottom: 1px solid #eb592c; width: 300px; padding-left: 10px; margin-bottom: 8px; line-height: 38px; font-size: 18px;}
+
+#loginWrapper, .updateWrapper { position: relative; margin-left: auto; margin-right: auto;}
+#loginWrapper td {padding: 0;}
+.login { position: relative; width: 290px; height: 220px; padding: 80px 30px 20px 30px; top: 116px; left: 50%; background-color: white; margin-left: -180px;
+         box-shadow: 0px 0px 10px #B1E0DC, 0px 0px 4px #eb592c; vertical-align: central; border-radius: 3px; }
+.login input { line-height: 38px; margin-bottom: 10px; padding-left: 5px; font-size: 18px;}
+.btnPrijavi { color: #eb592c; font-size: 18px; letter-spacing: 1px; font-weight: bold; margin-top: 30px; padding: 0 15px !important; height: 40px; background-image: linear-gradient(to bottom,#F6F6F6,#DEDEDE); box-shadow: 3px 3px 2px #B1ADAD; border: 0px solid transparent; }
+.btnPrijavi:hover {background-image:  linear-gradient(to top,#F6F6F6,rgb(247, 246, 243));}
+.btnPrijavi:active {background-image: linear-gradient(to top,#F6F6F6,rgb(247, 246, 243)); margin-top: 31px; box-shadow: 3px 1px 1px #B1ADAD;}
+.login table { position: relative; width: 100%; left: 50%; margin-left: -140px; }
+.shadow { position: relative; }
+.shadow:before, .shadow:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+.shadow:after
+{
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+
+.banner { position: relative; left: 0; top: 0; width: 100%; height: 44px; background-color: #eb592c; margin-bottom: 60px; padding: 0 10px; box-sizing: border-box; }
+.banner-wrap { width: 1000px; margin-left: auto; margin-right:auto; overflow: hidden; }
+#prijava, #natrag { display: inline-block; float: right; opacity: 0.6; width: 65px; height: 30px; line-height: 30px; border: 1px solid #fff; border-radius: 4px; color: #fff; text-align: center; font-size: 13px;margin-top: 6px; letter-spacing: 1px; }
+.lblBanner { display: inline-block; float: left; margin-left: 25px; line-height: 44px; color: #fff; font-size: 20px; letter-spacing: 1px; }
+
+.logo { width: 30px; height: 30px; background-image: url("../res/Algebra_color.png"); margin-top: 6px; float: left; }
+.user-wrap { float: right; line-height: 27px;}
+
+.search { display: inline-block; float: right; }
+.search input[type=text] { width: 350px; padding-left: 8px;}
+.extraButton { margin-left: 30px; letter-spacing: 1.2px; font-weight: bold; }
+
+.entryForm { margin: 0 auto; width: 800px; height: 300px; box-shadow: 0 0 5px #DEDEDE; position: absolute; z-index: 101; top: 200px; left: 50%; margin-left: -400px;}
+#prvaDetails { position: relative; display: inline-block; float: left; width: 400px; background-image: linear-gradient(to bottom,#F6F6F6,#DEDEDE);}
+.enterData {position: relative; display: inline-block; float: right; width: 400px; height: 100%; background-image: linear-gradient(to top,#F6F6F6,#E2DED6);}
+
+#korisnik {display: inline-block; color: white; margin-top: 7px; float: right; letter-spacing: 1px; }
+#logout { width: 30px; height: 30px; background-image: url("../res/logout.png"); margin-top: 6px; display: inline-block; float: right; margin-left: 20px;}
+#logout:hover { background-image: url("../res/logout-hover.png"); cursor: pointer;}
+
+.tabs { width: 90%; max-width: 1500px; margin-left: auto; margin-right:auto; padding: 30px; border: solid 1px #EFEFEF;}
+.tabs ul { background-color: #C1C7CA; padding: 10px 5px 0px 20px; border-top-left-radius: 7px; border-top-right-radius: 7px; 
+            border: solid 1px #777; border-bottom: none; }
+.tabs li { display: inline-block; border-bottom: none; padding: 10px; width: 200px; background-color: #F7F6F3; border-top: 2px solid #F7F6F3;
+           border-top-left-radius: 1px; border-top-right-radius: 1px; text-align: center; font-size: 18px;}
+.tabs li div { line-height: 40px; margin: -9px; letter-spacing: 1px; color: #808080;}
+.tabs .icon { height: 30px; width: 30px;float: left; position: relative; top: 5px; left: 20px; opacity: 0.5; }
+    .tabs .icon.icon-predbiljezbe { background-image: url(../res/people-icon-small.png); }
+    .tabs .icon.icon-seminari { background-image: url(../res/panel-small.png); }
+    .tabs .icon.icon-predavaci { background-image: url(../res/teacher8.png); }
+.active {background-color: white !important; border-top: 2px solid #eb592c !important; }
+.active div {color: #eb592c !important; }
+#tabs-1, #tabs-2 { border: solid 1px #777; border-top: none; padding: 10px; background-color: white;}
+.RezultatiGrid { margin-left: auto; margin-right:auto; padding: 10px; box-shadow: 0px 0px 5px #777; }
+.RezultatiGrid.pocetna {background-color: #F7F7F7;}
+.RezultatiGrid table { width: 100%; }
+.RezultatiGrid tr { height: 40px; } 
+.RezultatiGrid td { padding-left: 5px; }
+.pager { background-color: #e8e8e8; text-align: center; height: 25px!important;}
+.pager table {width: auto;}
+.pager td { padding-top: 0; padding-bottom: 0;}
+.pager tr {width: auto;}
+.pager table tr {height: 25px;}
+.pager a { text-decoration: underline; cursor:pointer;}
+.bezPodataka { width: 100%; height: 200px; line-height: 200px; margin: auto; vertical-align: middle; text-align: center; display: block; color: #808080; font-size: 20px;
+    letter-spacing: 1px; border: 1px solid #E8E8E8; }
+
+#details { position: fixed; top: 100px; right: 200px; background-color: white; opacity: 0.8;}
+
+.update { display:none; position: fixed; width: 660px; height: 660px; top: 100px; left: 50%; background-color: white; margin-left: -330px;
+         box-shadow: 0px 0px 10px #B1E0DC, 0px 0px 4px #eb592c; border-radius: 3px; z-index: 101;}
+.update input{ padding-left: 5px;}
+.update input[type=text] {font-size: 16px; margin-top: 3px;}
+.popupTable { position: relative; left: 50%; top: -30px; margin-left: -290px; border-collapse: collapse; border-bottom: 2px solid #E4E4E4;}
+#Calendar1 td { padding: 2px !important;}
+.popupBackground { display: none; position: fixed; height: 100%; width: 100%; top: 0; left: 0; background-color: black; opacity: 0.6; z-index: 100; overflow: hidden; }
+.close { width: 30px; height: 30px; border: 1px solid #fff; border-radius: 4px; text-align:center; font-weight: bold; margin-top: 6px; background-color: transparent; color: #fff; opacity: 0.6; padding-left: 0px !important; font-size: 15px; box-shadow: 0 0 3px;}
+
+#popisSeminara { margin: 10px 25px 25px 32px;}
+#popisSeminara p {margin-left: -6px; padding-bottom: 2px; border-bottom: 1px solid #eb592c;}
+#popisSeminara select {padding: 5px 10px; margin-top: 3px; overflow: auto; border: none;}
