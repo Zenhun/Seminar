@@ -1,7 +1,7 @@
 # Seminar
 *** if you want to test the app, you can log in using login: 'test', pswd: 'test' ***
 
-*** use Seminars.bak to restore or SeminarsCreate.sql to create database ***
+*** use Seminars.bak or SeminarsCreate.sql to create database ***
 
 Seminar app has two sections: for clients and for admins.
 
