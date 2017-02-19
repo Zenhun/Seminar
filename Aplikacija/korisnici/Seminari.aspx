@@ -121,7 +121,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:CheckBox ID="chkPopunjen" runat="server" Text=" Popunjen" TabIndex="4"/>
+                    <asp:CheckBox ID="chkPopunjen" runat="server" Text=" Popunjen" TabIndex="4" CssClass="chkPopClass"/>
                 </td>
             </tr>
              <tr>

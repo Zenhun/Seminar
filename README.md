@@ -1,7 +1,7 @@
 # Seminar
 *** if you want to test the app, you can log in using login: 'test', pswd: 'test' ***
 
-*** use Seminars.bak to restore the database ***
+*** use SeminarskaBaza.bak to restore the database ***
 
 Seminar app has two sections: for clients and for admins.
 

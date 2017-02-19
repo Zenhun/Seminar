@@ -3,7 +3,7 @@
 th, td { padding: 10px;}
 a { text-decoration: none;}
 table th a {text-decoration: underline;}
-input { line-height: 30px; margin-left: 5px; }
+input { height: 30px; line-height: 30px; margin-left: 5px; }
 .siteMap {display: inline-block; line-height: 41px; font-family: Calibri; font-size: 16px; margin-left: 10px; position: relative;}
 .btn { height: 34px; padding: 0px 5px;}
 .btn:hover {cursor: pointer;}
@@ -61,18 +61,19 @@ input[type=radio]:checked + label { background-image: none;
 #predbiljezbaInfo .title, .popupTable .title {background-color: #e8e8e8; box-shadow: 2px 0 3px #C1C1C1;}
 #predbiljezbaInfo .data, .popupTable .data {box-shadow: 1px 0 1px #C1C1C1; width: 380px;}
 .popupTable .data input {border: none; width: 350px;}
+.popupTable .chkPopClass label {position: relative; top: -10px;}
 #predbiljezbaInfo .underline, .popupTable .underline { line-height: 37px; padding: 0 1px; font-size:16px; font-weight: bold; border-bottom: 2px solid #eb592c;}
 
 #ObrisiSeminar {position: relative; left: 50%; margin: 40px 0 0 -100px;}
 
 #unosPrijava {position: relative; left: 50%; margin-left: -160px;}
-#unosPrijava input[type=text] { border: none; border-bottom: 1px solid #eb592c; width: 300px; padding-left: 10px; margin-bottom: 8px; line-height: 38px; font-size: 18px;}
+#unosPrijava input[type=text] { border: none; border-bottom: 1px solid #eb592c; width: 300px; padding-left: 10px; margin-bottom: 8px; height: 38px; line-height: 38px; font-size: 18px;}
 
 #loginWrapper, .updateWrapper { position: relative; margin-left: auto; margin-right: auto;}
 #loginWrapper td {padding: 0;}
 .login { position: relative; width: 290px; height: 220px; padding: 80px 30px 20px 30px; top: 116px; left: 50%; background-color: white; margin-left: -180px;
          box-shadow: 0px 0px 10px #B1E0DC, 0px 0px 4px #eb592c; vertical-align: central; border-radius: 3px; }
-.login input { line-height: 38px; margin-bottom: 10px; padding-left: 5px; font-size: 18px;}
+.login input { height: 38px;line-height: 38px; margin-bottom: 10px; padding-left: 5px; font-size: 18px;}
 .btnPrijavi { color: #eb592c; font-size: 18px; letter-spacing: 1px; font-weight: bold; margin-top: 30px; padding: 0 15px !important; height: 40px; background-image: linear-gradient(to bottom,#F6F6F6,#DEDEDE); box-shadow: 3px 3px 2px #B1ADAD; border: 0px solid transparent; }
 .btnPrijavi:hover {background-image:  linear-gradient(to top,#F6F6F6,rgb(247, 246, 243));}
 .btnPrijavi:active {background-image: linear-gradient(to top,#F6F6F6,rgb(247, 246, 243)); margin-top: 31px; box-shadow: 3px 1px 1px #B1ADAD;}
@@ -110,7 +111,7 @@ input[type=radio]:checked + label { background-image: none;
 .user-wrap { float: right; line-height: 27px;}
 
 .search { display: inline-block; float: right; }
-.search input[type=text] { width: 350px; padding-left: 8px;}
+.search input[type=text] { width: 350px; padding-left: 8px; height: 30px;}
 .extraButton { margin-left: 30px; letter-spacing: 1.2px; font-weight: bold; }
 
 .entryForm { margin: 0 auto; width: 800px; height: 300px; box-shadow: 0 0 5px #DEDEDE; position: absolute; z-index: 101; top: 200px; left: 50%; margin-left: -400px;}
